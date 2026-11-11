@@ -1,0 +1,11 @@
+# Packages used by resnet_cifar10_training.ipynb (its first cell installs any that are missing).
+# No pretrained model weights are downloaded: the network is trained from scratch.
+torch>=2.1
+torchvision>=0.16
+numpy
+pandas
+matplotlib
+pillow
+nbconvert
+nbformat
+ipykernel

@@ -1,0 +1,15 @@
+# Course-provided competition data: not published
+data/
+data.zip
+sample_submission.csv
+
+# Local environment and caches
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+
+# Large or temporary training files (the *_best.pt weights are kept)
+outputs/*_last.pt
+outputs/smoke_*
+outputs/submission.csv
